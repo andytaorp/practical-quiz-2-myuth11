@@ -30,8 +30,8 @@ function App() {
       <AddHabitForm onAddHabit={handleAddHabit} />
       <HabitList
         habits={habits}
-        onToggleHabit={handleToggleHabit} // Use the correct prop name
-        onDeleteHabit={handleDeleteHabit} // Use the correct prop name
+        onToggleHabit={handleToggleHabit} 
+        onDeleteHabit={handleDeleteHabit}
       />
     </div>
   );
